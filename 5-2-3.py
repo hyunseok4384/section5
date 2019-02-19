@@ -43,5 +43,5 @@ print('and', users.search((Users.username == 'Bret') & (Users.id == 1)))
 print('len', len(users))
 print('len', len(todos))
 
-print('containd', users.contains(Users.username == 'Bret')) #있는지 없는지 여기서는 True
+print('contains', users.contains(Users.username == 'Bret')) #있는지 없는지 여기서는 True
 print('count', users.count(Users.username == 'Bret')) #몇개 있는지 여기서는 1
